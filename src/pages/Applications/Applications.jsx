@@ -1,6 +1,6 @@
 const Applications = ()=>{
     return (
-        <div>app</div>
+        <div>&#128075;</div>
     )
 }
 export default Applications;

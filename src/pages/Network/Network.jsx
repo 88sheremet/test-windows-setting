@@ -1,6 +1,6 @@
 const Network = ()=>{
     return (
-        <div>net</div>
+        <div>&#128075;</div>
     )
 }
 export default Network;

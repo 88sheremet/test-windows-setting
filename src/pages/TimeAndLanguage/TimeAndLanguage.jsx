@@ -1,6 +1,6 @@
 const TimeAndLanguage = ()=>{
     return (
-        <div>time</div>
+        <div>&#128075;</div>
     )
 }
 export default TimeAndLanguage;

@@ -1,6 +1,6 @@
 const Confidential = ()=>{
     return (
-        <div>conf</div>
+        <div>&#128075;</div>
     )
 }
 export default Confidential;

@@ -1,6 +1,4 @@
-const System = ()=>{
-    return (
-        <div>System</div>
-    )
-}
+const System = () => {
+  return <div>&#128075;</div>;
+};
 export default System;

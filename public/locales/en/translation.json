@@ -24,5 +24,7 @@
     "Cameramicrophone": "Camera, microphone",
     "SelectLanguage":"Select Language",
     "English": "English",
-    "Russian":"Russian"
+    "Russian":"Russian",
+    "Light": "Light theme",
+    "Dark": "Dark theme"
 }

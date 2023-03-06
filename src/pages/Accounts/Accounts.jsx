@@ -1,6 +1,6 @@
 const Accounts = ()=>{
     return (
-        <div>acc</div>
+        <div>&#128075;</div>
     )
 }
 export default Accounts;

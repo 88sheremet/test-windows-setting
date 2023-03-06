@@ -1,6 +1,6 @@
 const Games = ()=>{
     return (
-        <div>games</div>
+        <div>&#128075;</div>
     )
 }
 export default Games;

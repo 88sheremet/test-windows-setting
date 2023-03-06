@@ -1,6 +1,6 @@
 const Devices = ()=>{
     return (
-        <div>dev</div>
+        <div>&#128075;</div>
     )
 }
 export default Devices;

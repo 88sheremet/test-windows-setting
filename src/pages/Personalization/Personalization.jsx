@@ -1,6 +1,6 @@
 const Personalization = ()=>{
     return (
-        <div>pers</div>
+        <div>&#128075;</div>
     )
 }
 export default Personalization;

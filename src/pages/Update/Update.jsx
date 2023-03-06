@@ -1,10 +1,5 @@
-// import { Button } from '@fluentui/react-components';
-
-const Update = ()=>{
-    return (
-        // <Button appearance="primary">I am a button.</Button>
-        <div></div>
-    )
-}
+const Update = () => {
+  return <div>&#128075;</div>;
+};
 
 export default Update;

@@ -1,5 +1,4 @@
 import React from "react";
-
 import Languageoption from "../component/language-dropdown";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
@@ -19,7 +18,7 @@ import {
   ZoomIn24Regular,
 } from "@fluentui/react-icons";
 
-import { makeStyles } from "@fluentui/react-components";
+import { makeStyles, Button } from "@fluentui/react-components";
 
 const useStyles = makeStyles({
   listItem: {
@@ -36,6 +35,9 @@ const useStyles = makeStyles({
     color: "#63276d",
     textDecoration: "none",
   },
+  wrapper: {
+    marginTop: "20px",
+  },
 });
 
 const Home = () => {
@@ -45,15 +47,30 @@ const Home = () => {
     i18next.changeLanguage(e.target.value);
   };
   return (
-    <div>
+    <>
       <Languageoption onChange={(e) => handleClick(e)} />
-      <div>
-        <button onClick={() => (document.body.style.background = "#fff")}>
-          refrfer
-        </button>
-        <button onClick={() => (document.body.style.background = "#000")}>
-          ujytujtugj
-        </button>
+
+      <div className={styled.wrapper}>
+        <Button
+          shape="circular"
+          onClick={() => {
+            document.body.style.background = "#fff";
+            const div = document.getElementById("root");
+            div.style.backgroundColor = "#fff";
+          }}
+        >
+          {t("Light")}
+        </Button>
+        <Button
+          shape="circular"
+          onClick={() => {
+            document.body.style.background = "#000";
+            const div = document.getElementById("root");
+            div.style.backgroundColor = "#000";
+          }}
+        >
+          {t("Dark")}
+        </Button>
       </div>
       <ul className={styled.list}>
         <li key={1} className={styled.listItem}>
@@ -141,7 +158,7 @@ const Home = () => {
           </NavLink>
         </li>
       </ul>
-    </div>
+    </>
   );
 };
 export default Home;

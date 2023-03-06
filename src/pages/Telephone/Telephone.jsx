@@ -1,6 +1,6 @@
 const Telephone = ()=>{
     return (
-        <div>tel</div>
+        <div>&#128075;</div>
     )
 }
 export default Telephone;

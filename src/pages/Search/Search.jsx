@@ -1,6 +1,6 @@
 const Search = ()=>{
     return (
-        <div>search</div>
+        <div>&#128075;</div>
     )
 }
 export default Search;
